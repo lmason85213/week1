@@ -1,5 +1,7 @@
 let volcanoes = require('./volcanoes.json');
 
+
+
 // this is the total deaths from all volcanoes 
 let totalDead = 0;
 for (const v of volcanoes) {

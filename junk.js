@@ -83,44 +83,56 @@ calculator(10,40,"/") result 4 *
 
 // }
 
-let date = new Date(); 
-console.log(date);
+// let date = new Date(); 
+// console.log(date);
 
-let jumping = increment(6);
-console.log(jumping)
+// let jumping = increment(6);
+// console.log(jumping)
 
 
-function increment(jump) {
-    let date = new Date();
-    let currentHour = date.getHours();
-    let currentSec = date.getSeconds();
-    let count =0;
+// function increment(jump) {
+//     let date = new Date();
+//     let currentHour = date.getHours();
+//     let currentSec = date.getSeconds();
+//     let count =0;
 
-    for (let i = currentHour; i < currentSec; i += jump) {
-        count++;
-        console.log(i)
-    }
+//     for (let i = currentHour; i < currentSec; i += jump) {
+//         count++;
+//         console.log(i)
+//     }
     
-return count;
-}
+// return count;
+// }
 
 
-    function findTallestChild(child1, child2, child3) {
-        if (child1 > child2 && child1 > child3) {
-            console.log('the first child is the tallest');
-        } else if (child2 > child3) {
-            console.log("the second child is the tallest");
-        } else {
-            console.log("The third child is the tallest");
-        }
+//     function findTallestChild(child1, child2, child3) {
+//         if (child1 > child2 && child1 > child3) {
+//             console.log('the first child is the tallest');
+//         } else if (child2 > child3) {
+//             console.log("the second child is the tallest");
+//         } else {
+//             console.log("The third child is the tallest");
+//         }
     
-    }
+//     }
 
 
-let max = Math.max(654,134,789)  //same as above just simplier 
-console.log(max); 
+//let max = Math.max(654,134,789)  //same as above just simplier 
+//console.log(max); 
 
-let ar = [654,789,123,456,987,321]
-let min = Math.min(...ar); //this spreads out the array and checks for the min value of the set of numbers 
-console.log(min);    //the dots spreads out the array ... 
+//let ar = [654,789,123,456,987,321]
+//let min = Math.min(...ar); //this spreads out the array and checks for the min value of the set of numbers 
+//console.log(min);    //the dots spreads out the array ... 
+
+//takes 4 arguments and call it 3 times
+// function tellFortune(numKids, partner, geoLocation, jobTitle){
+//     let future = `You will be ${jobTitle} in ${geoLocation}, and married to ${partner} with ${numKids} kids.`;
+//     console.log(future);
+
+// }
+
+// tellFortune("bball player", "spain", "Shaq", 3 ); 
+// tellFortune("stunt double", "Japan", "Ryan Gosling", 3000); 
+// tellFortune("Elvis impersonator", "Russia", "The Oatmeal", 0);
+
 
